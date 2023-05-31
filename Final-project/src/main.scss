@@ -1,2 +1,15 @@
 @import './scss/fonts.scss';
+ @import './scss/colors.scss';
+ @import './scss/typography.scss';
+ @import './scss/breakpoints.scss';
+
+ html{
+   font-size: $mainFontSize;
+   line-height: $mainLineHeight;
+ }
+
+ body {
+   font-family: $mainFontFamily;
+   color: $mainColor;
+ }
  
