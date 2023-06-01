@@ -14,13 +14,21 @@
     <header class="header">
       <div class="header__top-panel">
         <form class="form">
-          <div class="form__input-wrapper">
+          <div class="form__input-wrapper form__input-wrapper--hidden">
             <label for="search-input-id" class="form__label input-text">Search Products</label>
             <input id="search-input-id" class="form__input" type="text" />
           </div>
+          <a href="#" class="form__icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
         </form>
-        <div class="logo"></div>
-        <div class="user-links"></div>
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="logo" />
+        </div>
+        <div class="user-links">
+          <a href="/"><i class="fa-solid fa-user"></i>Account</a>
+          <a href="/"><i class="fa-solid fa-bag-shopping"></i>Shoping</a>
+        </div>
       </div>
     </header>
   </div>
