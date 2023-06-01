@@ -1,0 +1,38 @@
+@import '../../scss/colors.scss';
+
+.form {
+    &__input-wrapper {
+        position: relative;
+        top: 50px;
+    }
+
+    &__label {
+        position: absolute;
+        top: 25%;
+        transition: .3s all;
+        &--active {
+            top: -50%;
+            font-size: 14px;
+            opacity: .7;
+            color: map-get( $primeryColors, 'primery');
+        }
+    }
+
+
+    &__input {
+        border: none;
+        border-bottom: 2px solid map-get($darkColors, 'dark');
+        display: block;
+        width: 100%;
+        outline: none;
+        height: 32px;
+        &:focus {
+            border-bottom: 2px solid map-get( $primeryColors, 'primery');
+        }
+    }
+
+    &__button {
+        border: 1px solid red;
+    }
+}
+
