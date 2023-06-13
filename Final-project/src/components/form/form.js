@@ -1,5 +1,14 @@
 import './form.scss';
 
+const clickOutside = (el, callback) => {
+  const handleClick = (e) => {
+    if (!el.contains(e.target)) {
+      callback();
+    }
+  };
+  document.addEventListener('click', handleClick);
+};
+
 const inputs = document.querySelectorAll('.form__input');
 const formSearchIcons = document.querySelectorAll('.form__icon');
 
@@ -30,6 +39,9 @@ const onClickIcon = (evt) => {
 
 formSearchIcons.forEach((element) => {
   element.addEventListener('click', onClickIcon);
+  const parent = element.parentElement;
+  clickOutside(parent, () => {
+    const wrapper = parent.querySelector('.form__input-wrapper');
+    wrapper.classList.add('form__input-wrapper--hidden');
+  });
 });
-
-document.addEventListener

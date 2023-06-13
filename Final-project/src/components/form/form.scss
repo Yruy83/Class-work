@@ -38,13 +38,14 @@
 
     &__input {
         border: none;
+        background: transparent;
         border-bottom: 2px solid map-get($darkColors, 'dark');
         display: block;
         width: 100%;
         outline: none;
         height: 32px;
         &:focus {
-            border-bottom: 2px solid map-get( $primeryColors, 'primery');
+            border-bottom: 2px solid map-get($primeryColors, 'primery');
         }
     }
 
