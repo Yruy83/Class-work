@@ -1,0 +1,37 @@
+ $primeryColors: (
+    primery: rgba(255, 111, 97, 1),
+    primary75: rgba(255, 111, 97, 0.75),
+    primery50: rgba(255, 111, 97, 0.5),
+    primery25: rgba(255, 111, 97, 0.25),
+    primery10: rgba(255, 111, 97, 0.1),
+    primery5: rgba(255, 111, 97, 0.05),
+ );
+
+ $blackColors: (
+    black100: rgba(30, 40, 50, 1),
+    black75: rgba(30, 40, 50, 0.75),
+    black50: rgba(30, 40, 50, 0.5),
+    black25: rgba(30, 40, 50, 0.25),
+    black10: rgba(30, 40, 50, 0.1),
+    black5: rgba(30, 40, 50, 0.05),
+ );
+
+ $whiteColors: (
+    white100: rgba(255, 255, 255, 1),
+    white75: rgba(255, 255, 255, 0.75),
+    white50: rgba(255, 255, 255, 0.5),
+    white25: rgba(255, 255, 255, 0.25),
+    white10: rgba(255, 255, 255, 0.1),
+    white5: rgba(255, 255, 255, 0.05),
+ );
+
+ $darkColors: (
+    dark100: #000000,
+    dark75: rgba(0, 0, 0, 0.75),
+    dark50: rgba(0, 0, 0, 0.5),
+    dark25: rgba(0, 0, 0, 0.25),
+    dark10: rgba(0, 0, 0, 0.1),
+    dark5: rgba(0, 0, 0, 0.05),
+ );
+
+$strokeColor: #e3e3e3;
