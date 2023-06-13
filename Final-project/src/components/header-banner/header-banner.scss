@@ -1,0 +1,19 @@
+.header-banner {
+    max-height: 562px;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 81px;
+    }
+
+    &__description {
+        margin-top: 52px;
+    }
+
+    &__button {
+        margin-top: 66px;
+        
+    }
+}

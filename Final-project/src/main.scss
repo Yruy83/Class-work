@@ -1,20 +1,30 @@
 @import './scss/fonts.scss';
- @import './scss/colors.scss';
- @import './scss/typography.scss';
- @import './scss/breakpoints.scss';
+@import './scss/colors.scss';
+@import './scss/typography.scss';
+@import './scss/breakpoints.scss';
 
- html{
-   font-size: $mainFontSize;
-   line-height: $mainLineHeight;
- }
+html {
+  font-size: $mainFontSize;
+  line-height: $mainLineHeight;
+}
 
- body {
-   font-family: $mainFontFamily;
-   color: $mainColor;
-   margin: 0;
-   padding: 0 12px;
- }
- 
- a {
+body {
+  font-family: $mainFontFamily;
+  color: $mainColor;
+  margin: 0;
+  padding: 0 12px;
+}
+
+a {
   text-decoration: none;
-   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
