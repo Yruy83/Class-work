@@ -9,4 +9,6 @@ import './components/navigation/navigation.js';
 import './components/header-banner/header-banner.js';
 import './components/button/button.js';
 import './components/top-brands/top-brands.js';
+import './components/hot-categories/hot-categories.js';
+import './components/tabs/tabs.js';
 console.log('Hello IT-academy student 🚀');
